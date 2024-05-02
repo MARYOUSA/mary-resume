@@ -1,0 +1,181 @@
+html {
+    font-size: 20px;
+    background-color: #e0e6f0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    text-align: justify;
+    line-height: 2;
+    font-weight: 400;
+}
+
+h1,
+h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+a {
+    color: #4d79ac;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #141e37;
+}
+
+#navbar {
+    padding: 8px;
+    margin: 0;
+
+}
+
+#banner {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+
+#about {
+    display: flex;
+    ;
+}
+
+#description {
+    max-width: 800px;
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+
+#team {
+
+    width: 100%;
+}
+
+#team-image {
+    width: 100%;
+    border-radius: 10px;
+    float: right;
+    border: 5px solid rgb(18, 18, 44);
+}
+
+h1 {
+    text-align: left;
+    color: rgb(30, 41, 51);
+
+}
+
+#team-development-description {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 8px;
+}
+
+#jobs-table {
+    width: 100%;
+    border: 1px solid gray;
+    border-collapse: collapse;
+
+}
+
+.jobs-header-row th {
+    border: 1px solid rgb(172, 177, 203);
+    background-color: #b3bdc8;
+    text-align: center;
+}
+
+.skills-data-row td {
+    border: 1px solid rgb(115, 116, 122)
+}
+
+#jobs-table tr:nth-child(odd) {
+
+    background-color: aliceblue;
+
+}
+
+#application div {
+    margin: 16px;
+}
+
+#application {
+    max-width: 800px;
+    margin: 16px 0;
+    padding: 0 8px;
+}
+
+.application-form label {
+    font-weight: 600;
+}
+
+.application-form input,
+select,
+textarea {
+    padding: 8px;
+    font-size: 1.25rem;
+    margin-top: 4px;
+    border-radius: 5px;
+    border-color: 1px solid #5d6d76;
+}
+
+
+.application-form textarea {
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.application-form input[type="submit"] {
+    background-color: rgb(90, 126, 197);
+    font-weight: 500;
+    padding: 16px;
+    cursor: pointer;
+}
+
+.application-form-message {
+    margin-top: 4px;
+}
+
+
+#banner {
+    width: 100%;
+}
+
+.location {
+    color: rgb(2, 28, 53);
+}
+
+.technical-solutions {
+    margin-bottom: 0;
+
+
+}
+
+
+#footer {
+    background-color: #ccd6e6;
+    padding: 8px;
+    margin-top: 16px;
+    text-align: center;
+
+}
+
+#footer-links {
+    list-style: none;
+
+}
+
+#footer-links li {
+    display: inline;
+    margin: 0;
+}
+
+.copyright {
+    color: #5d6d76;
+}
